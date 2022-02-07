@@ -1,0 +1,37 @@
+
+
+void leerVector(entero vector[],entero tam)
+flotante promValorVector (entero vector[],entero tam)
+entero posMayor(flotante num[],entero tam)
+entero posMenor(flotante num[],entero tam)
+entero invertirNumero(entero valor)
+void imprimirVector(entero vector[],entero tam)
+
+Algoritmo Parcial3
+{
+    entero vecNum[50];
+    entero vecNumInvertido[50];
+    entero i;
+    leerVector(vecNum,50);
+    para (i=0; i < 50; i++)
+    {
+        vecNumInvertido[i]= invertirNumero(vecNum[i]);
+    }
+    imprimir("Valores del vector vecNum: ");
+    imprimirVector(vecNum,50);
+    imprimir("Valores del vector vecNumInvertido: ");
+    imprimirVector(vecNumInvertido,50);
+    imprimir("Valor menor del vecNum: ",vecNum[posMenor(vecNum,50)]);
+    imprimir("Valor mayor del vecNumInvertido: ",vecNumInvertido[posMayor(vecNumInvertido,50)]);
+    imprimir("Promedio general del vector vecNum:", promValorVector(vecNum,50));
+    imprimir("Promedio general del vector vecNumInvertido:", promValorVector(vecNumInvertido,50));
+    
+}
+
+void imprimirVector(entero vector[],entero tam)
+{
+    para(entero x = 0; x < tam; x++)
+    {
+        imprimir(vector[x]);
+    }
+}

@@ -1,0 +1,34 @@
+base: 25.54, altura: 54.21
+base: 10.23, altura: 165.25
+base: 11.43, altura: 16.52
+base: 54.23, altura: 18.41
+base: 34.23, altura: 16.48
+base: 12.53, altura: 49.26
+base: 54.12, altura: 35.48
+base: 12.32, altura: 28.18
+base: 23.43, altura: 97.26
+base: 1.32, altura: 153.545
+base: 2.43, altura: 185.025
+base: 0.54, altura: 0.2457
+base: 34.54, altura: 150.2884
+base: 54.67, altura: 153.281
+base: 214.21, altura: 842.21
+base: 64.15, altura: 16.48
+base: 16.48, altura: 17.1658
+base: 95.26, altura: 325.156
+base: 2.45, altura: 0.1584
+base: 5.48, altura: 2.0186
+base: 15.16, altura: 5.2189
+base: 7.84, altura: 13.248
+base: 0.84, altura: 10.518
+base: 79.5, altura: 47.183
+base: 48.4, altura: 38.518
+base: 36.2, altura: 16.28452
+base: 8, altura: 95
+
+/el reto hay q dividirlo por partes primero intentar hacer un triangulo para la fecha esa ydespues el cuadrado de abajo
+    // no me quieres preguntar ah -_- weno para hacer un triangulo lo primero q se me ocurre po q como imprime de izquieda a derecha y luego da enter
+    // lo q podemo hacer es dibujarlo de arriba hacia abajo comenzando desde la puntita, y... la puntita siempre va en el medio no? xdxd
+    // luego en la siguiente linea podemos pintar desde el centro -1 hasta el centro +1 si el centro era 5 pintamos desde 4 a 6 y en la siente 
+    // hacemos q pinte del centro -2 al centro +2 y asi xdxd vamos pintando un triangulo xd
+    

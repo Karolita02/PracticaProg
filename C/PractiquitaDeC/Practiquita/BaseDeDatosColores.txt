@@ -1,0 +1,26 @@
+amarillo
+rojo
+verde
+azul
+morado
+gris
+negro
+blanco
+rosado
+celeste
+lila
+cian
+naranja
+chocolate
+marron
+plateado
+turquesa
+fucsia
+dorado
+crema
+purpura
+verde lima
+verde menta
+salmon
+beige
+fin
